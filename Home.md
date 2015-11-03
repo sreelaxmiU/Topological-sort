@@ -14,13 +14,14 @@ IMPLEMENTATION:
 
 #include <stdio.h>
 #include <assert.h>
-
 #define MAX 5
 
 int main()
 {
 	int no, i, j;
 	int indeg[MAX] = {0}, visited[MAX] = {0}, count = 0;
+
+
 	/* DAG used */
 	/* 1---------> 2--------->5
            |           |       ->
