@@ -1,6 +1,6 @@
 Welcome to the Topological-sort wiki!
 
-DEFINITION: Topological sort is defined as a process of assigning linear ordering to the vertices of a directed graph(DAG).
+DEFINITION: Topological sort is defined as a process of assigning linear ordering to the vertices of a directed acyclic graph(DAG).
 
 WORKING : 1) Consider a DAG.
           2) Calculate the number of incoming and out-coming edges to every node.
